@@ -1,0 +1,362 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Justin Peralta | Portfolio</title>
+
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        html {
+            scroll-behavior: smooth;
+        }
+
+        body {
+            min-height: 100vh;
+            margin: 0;
+            font-family: Arial, sans-serif;
+            color: #163b40;
+            text-align: center;
+            background-image: linear-gradient(135deg, #add8e6, #008080);
+            line-height: 1.6;
+        }
+
+        header {
+            padding: 40px 20px 20px;
+        }
+
+        header h1 {
+            font-size: 38px;
+            margin-bottom: 5px;
+        }
+
+        header p {
+            font-size: 18px;
+        }
+
+        nav {
+            background-color: #164e50;
+            padding: 12px;
+            position: sticky;
+            top: 0;
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 25px;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            color: #add8e6;
+        }
+
+        section {
+            width: 85%;
+            max-width: 900px;
+            margin: 30px auto;
+            padding: 30px;
+            background-color: rgba(255, 255, 255, 0.88);
+            border-radius: 15px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.12);
+            scroll-margin-top: 70px;
+        }
+
+        h2 {
+            color: #006666;
+            margin-top: 0;
+        }
+
+        .profile-photo {
+            width: 200px;
+            height: 200px;
+            object-fit: cover;
+            border-radius: 50%;
+            border: 5px solid #008080;
+            margin: 15px auto;
+        }
+
+        .skills-list {
+            list-style: none;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 12px;
+        }
+
+        .skills-list li {
+            background-color: #d5f0f0;
+            border: 1px solid #008080;
+            border-radius: 20px;
+            padding: 8px 18px;
+        }
+
+        .project {
+            background-color: #eefafa;
+            padding: 20px;
+            margin: 20px 0;
+            border-radius: 10px;
+            border-left: 5px solid #008080;
+        }
+
+        .project h3 {
+            color: #164e50;
+        }
+
+        .project p {
+            margin-bottom: 0;
+        }
+
+        .contact-form {
+            max-width: 500px;
+            margin: auto;
+        }
+
+        label {
+            display: block;
+            text-align: left;
+            margin-top: 15px;
+            font-weight: bold;
+        }
+
+        input, textarea {
+            width: 100%;
+            padding: 12px;
+            margin-top: 5px;
+            border: 1px solid #8ababa;
+            border-radius: 6px;
+            font-family: Arial, sans-serif;
+            font-size: 15px;
+        }
+
+        textarea {
+            height: 130px;
+            resize: vertical;
+        }
+
+        button {
+            margin-top: 20px;
+            padding: 12px 30px;
+            background-color: #006666;
+            color: white;
+            border: none;
+            border-radius: 6px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+
+        button:hover {
+            background-color: #164e50;
+        }
+
+        footer {
+            background-color: #164e50;
+            color: white;
+            padding: 20px;
+            margin-top: 40px;
+        }
+
+        @media (max-width: 600px) {
+            header h1 {
+                font-size: 30px;
+            }
+
+            section {
+                width: 92%;
+                padding: 20px;
+            }
+
+            nav ul {
+                gap: 12px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+
+    <header id="home">
+        <h1>Justin Peralta</h1>
+        <p>Information Technology Student | Aspiring Web Developer</p>
+    </header>
+
+
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+
+    <section id="about">
+        <h2>About Me</h2>
+
+        <img src="images.webp" alt="Profile Photo"
+             class="profile-photo">
+
+        <p>
+            My name is Justin Peralta, and I am an Information
+            Technology student at the University of the Cordilleras,
+            pursuing a Bachelor of Science in Information Technology.
+        </p>
+
+        <p>
+            I am interested in web development and learning how websites
+            and applications are created. I enjoy exploring new
+            technologies, improving my programming skills, and finding
+            ways to solve problems through technology.
+        </p>
+
+        <p>
+            I consider myself a hardworking and dedicated student who
+            is willing to learn from mistakes and improve over time.
+            I also value teamwork, creativity, and continuous learning.
+            My goal is to become a skilled IT professional and create
+            useful projects that can help other people.
+        </p>
+    </section>
+
+
+    <section id="skills">
+        <h2>My Skills</h2>
+
+        <p>
+            These are some of the technologies and tools I am learning
+            and developing my knowledge of.
+        </p>
+
+        <ul class="skills-list">
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+            <li>PHP</li>
+            <li>MySQL</li>
+            <li>Git</li>
+        </ul>
+
+        <h3>Personal Strengths</h3>
+
+        <p>
+            Problem-solving, willingness to learn, teamwork,
+            creativity, patience, and time management.
+        </p>
+    </section>
+
+
+    <section id="projects">
+        <h2>My Projects</h2>
+
+        <p>
+            Here are some projects I would like to develop as I continue
+            improving my knowledge of web development.
+        </p>
+
+        <div class="project">
+            <h3>1. Tutoring Website</h3>
+             <img src="helpme.jpg" alt="1. Tutoring Website"
+             class="profile-photo">
+            <p>
+                A platform that connects students with tutors.
+                Students could search for tutors based on their subjects
+                and learning needs, while tutors could share their
+                expertise and offer tutoring services.
+            </p>
+            <p><strong>Planned technologies:</strong> HTML, CSS, JavaScript, PHP, and MySQL.</p>
+        </div>
+
+        <div class="project">
+            <h3>2. Weather Application</h3>
+            <img src="jesus.png" alt="2. Weather Application"
+             class="profile-photo">
+            <p>
+                A weather application that allows users to check
+                current weather conditions and forecasts for different
+                locations. It could also display temperature,
+                humidity, and weather alerts using a weather API.
+            </p>
+            <p><strong>Planned technologies:</strong> HTML, CSS, and JavaScript.</p>
+        </div>
+
+        <div class="project">
+            <h3>3. Personal Portfolio Website</h3>
+            <img src="keklewl.jpg" alt="3. Personal Portfolio Website"
+             class="profile-photo">
+            <p>
+                A personal website that introduces me, showcases my
+                skills, and presents my projects and achievements.
+                It also provides a contact form where visitors can
+                send inquiries.
+            </p>
+            <p><strong>Technologies:</strong> HTML and CSS.</p>
+        </div>
+
+        <p>
+            These projects represent my learning goals and the types
+            of applications I hope to create in the future.
+        </p>
+    </section>
+
+
+    <section id="contact">
+        <h2>Contact Me</h2>
+
+        <p>
+            Thank you for visiting my portfolio! If you have questions,
+            suggestions, or opportunities to collaborate, you can use
+            the form below to get in touch.
+        </p>
+
+        <form class="contact-form"
+              action="mailto:your-email@example.com"
+              method="post"
+              enctype="text/plain">
+
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="Name"
+                   placeholder="Enter your name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="Email"
+                   placeholder="Enter your email" required>
+
+            <label for="subject">Subject:</label>
+            <input type="text" id="subject" name="Subject"
+                   placeholder="Enter the subject" required>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="Message"
+                      placeholder="Write your message here"
+                      required></textarea>
+
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+
+    <footer>
+        <p>© 2026 Justin Peralta. All rights reserved.</p>
+        <p>Designed and created by Justin Peralta.</p>
+    </footer>
+
+</body>
+</html>
